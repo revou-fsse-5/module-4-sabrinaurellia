@@ -7,12 +7,6 @@ This project is a multi-step registration form built with React, Tailwind CSS, a
 - [Features](#features)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Running the Application](#running-the-application)
-- [File Structure](#file-structure)
-- [Usage](#usage)
-- [Deployment](#deployment)
-- [License](#license)
 
 ## Features
 
