@@ -20,16 +20,16 @@ const PersonalInfo = ({ onNext }) => {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
-      <input name="fullName" ref={register} placeholder="Full Name" />
+      <input name="fullName" ref={register} placeholder="Full Name" className="input-field" />
       <p>{errors.fullName?.message}</p>
 
-      <input name="email" ref={register} placeholder="Email Address" />
+      <input name="email" ref={register} placeholder="Email Address" className="input-field" />
       <p>{errors.email?.message}</p>
 
-      <input type="date" name="dob" ref={register} />
+      <input type="date" name="dob" ref={register} className="input-field" />
       <p>{errors.dob?.message}</p>
 
-      <button type="submit">Next</button>
+      <button type="submit" className="btn">Next</button>
     </form>
   );
 };
